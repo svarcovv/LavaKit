@@ -1,0 +1,21 @@
+name: LavaKit
+version: '${project.version}'
+main: dev.svarcovv.lavakit.LavaKit
+api-version: '1.21.4'
+load: POSTWORLD
+softdepend: [PlayerPoints]
+commands:
+  kit:
+    description: Открыть меню наборов
+    permission: lavakit.command.kit
+  lavakit:
+    description: Управление наборами
+permissions:
+  lavakit.command.kit:
+    default: true
+  lavakit.admin:
+    default: op
+    children:
+      lavakit.give: true
+  lavakit.give:
+    default: op

@@ -1,0 +1,142 @@
+menu-title: "             &8◢ наборы ◣"
+preview-title: "&8Просмотр кита: %kit%"
+
+buttons:
+  link:
+    slot: 4
+    name: "  &#FFA500С&#FDAB00о&#FBB200о&#F9B800б&#F7BE00щ&#F6C500е&#F4CB00с&#F2D100т&#F0D800в&#EEDE00а  "
+    lore:
+      - ""
+      - "  &#FFA500» &fНаш сервер как и многие  "
+      - "  &#FFA500» &fДругие иммеют свои сообщества  "
+      - ""
+      - "  &#FFA500» &#FFA500/link &fпокажет все наши сообщества  "
+      - ""
+  back:
+    slot: 49
+    name: "  &#FFA500← &fНазад в меню  "
+    lore: []
+  claim:
+    slot: 47
+    name: "        &6Получить набор  "
+    lore:
+      - ""
+      - "  &fПолучить &6бесплатно &fможно  "
+      - "   &fимея нужную привилегию  "
+      - ""
+      - "  &6➥ &fНажмите чтобы получить  "
+  buy:
+    slot: 51
+    name: "             &6Купить набор  "
+    lore:
+      - ""
+      - "  &fВам будет &6выдано содержимое "
+      - "            &fданного набора"
+      - ""
+      - "  &6➥ &fНажмите чтобы купить за&7: &6%price%  "
+      - ""
+  preview-back:
+    slot: 49
+    name: "  &#FFA500← &fНазад к наборам  "
+    lore: []
+
+kits:
+  spirit:
+    slot: 29
+    price: 100
+    cooldown: 60
+    permission: "lavakit.spirit"
+    rgb: "58, 179, 218"
+    name: "       &fНабор &7- &#0098FF🗡 &#0098FFꜱ&#00A2FFᴘ&#00ACFFɪ&#00A5FFʀ&#009FFFɪ&#0098FFᴛ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  dragon:
+    slot: 21
+    price: 100
+    cooldown: 60
+    permission: "lavakit.dragon"
+    rgb: "176, 46, 38"
+    name: "       &fНабор &7- &#CA2900🗡 &#CA2900ᴅ&#E53900ʀ&#FF4800ᴀ&#ED3E00ɢ&#DC3300ᴏ&#CA2900ɴ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  druid:
+    slot: 31
+    price: 100
+    cooldown: 60
+    permission: "lavakit.druid"
+    rgb: "128, 199, 31"
+    name: "       &fНабор &7- &#30BA00🗡 &#30BA00ᴅ&#39DD00ʀ&#42FF00ᴜ&#39DD00ɪ&#30BA00ᴅ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  custom:
+    slot: 11
+    price: 100
+    cooldown: 60
+    permission: "lavakit.custom"
+    rgb: "137, 50, 184"
+    name: "       &fНабор &7- &#7F00FD🗡 &#7F00FDᴄ&#8900FDᴜ&#9300FDꜱ&#9D00FDᴛ&#8E00FDᴏ&#7F00FDᴍ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  fear:
+    slot: 33
+    price: 100
+    cooldown: 60
+    permission: "lavakit.fear"
+    rgb: "157, 157, 151"
+    name: "       &fНабор &7- &#8D8D8D🗡 &#8D8D8Dꜰ&#898989ᴇ&#858585ᴀ&#8D8D8Dʀ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  start:
+    slot: 23
+    price: 100
+    cooldown: 60
+    permission: "lavakit.start"
+    rgb: "131, 84, 50"
+    name: "       &fНабор &7- &#CDCDCD🗡 &#CDCDCDᴘ&#DEDEDEʟ&#EEEEEEᴀ&#FFFFFFʏ&#E6E6E6ᴇ&#CDCDCDʀ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  bonus:
+    slot: 15
+    price: 100
+    cooldown: 60
+    permission: "lavakit.bonus"
+    rgb: "249, 255, 254"
+    name: "         &fНабор &7- &#E3E3E3ʙ&#F1F1F1ᴏ&#FFFFFFɴ&#F1F1F1ᴜ&#E3E3E3ꜱ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  motron:
+    slot: 25
+    price: 100
+    cooldown: 60
+    permission: "lavakit.motron"
+    rgb: "249, 128, 29"
+    name: "       &fНабор &7- &#DB5900🗡 &#DB5900ᴍ&#DF6C00ᴏ&#E37F00ᴛ&#E69100ʀ&#EAA400ᴏ&#EEB700ɴ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
+  sezon:
+    slot: 19
+    price: 100
+    cooldown: 60
+    permission: "lavakit.sezon"
+    rgb: "254, 216, 61"
+    name: "         &fНабор &7- &#FFE300ꜱ&#FFEE00ɪ&#FFF800ᴢ&#FFEE00ᴏ&#FFE300ɴ  "
+    lore:
+      - ""
+      - "  &#FFA500➥ &fНажмите для просмотра  "
+      - ""
